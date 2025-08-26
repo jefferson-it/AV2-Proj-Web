@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import { Icon } from '@iconify/react/dist/iconify.js'
 import ItemEdit from './components/ItemEdit';
-import useLocalStorage from './localhost';
+import useLocalStorage from './localstorage';
 import ViewerList from './components/Viewer';
 
 function App() {
